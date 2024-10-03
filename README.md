@@ -1,1 +1,2 @@
-# tasks
+# Tasks 
+Projeto utilizando Angular CLI
