@@ -1,0 +1,22 @@
+{
+    "tasks":[
+        {
+            "id": 1,
+            "title": "Estudar SCSS",
+            "category": "Desenvolvimento Pessoal",
+            "completed": true
+        },
+        {
+            "id": 2,
+            "title": "Estudar Angular",
+            "category": "Trabalho",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "title": "Estudar TipeScript",
+            "category": "Desenvolvimento Pessoal",
+            "completed": false
+        }
+    ]
+}
