@@ -21,4 +21,7 @@ export class TasksComponent implements OnInit {
       console.log(data);
     });
   }
+  deleteTask(task: Task){
+    this.taskService.deleteTask(task).subscribe();
+  }
 }

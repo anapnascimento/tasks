@@ -1,1 +1,1 @@
-<app-task-item *ngFor="let task of list_tasks" [task]="task"></app-task-item>
+<app-task-item *ngFor="let task of list_tasks" [task]="task" (onDeleteTask)="deleteTask($event)"></app-task-item>
