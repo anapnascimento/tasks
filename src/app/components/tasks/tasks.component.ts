@@ -14,14 +14,14 @@ import { TaskItemComponent } from "../task-item/task-item.component";
 export class TasksComponent implements OnInit {
   list_tasks: Task[] = [];
 
-  constructor(private taskService:TaskService){}
-  ngOnInit():void{
-    this.taskService.getTasks().subscribe((data) =>{
+  constructor(private taskService: TaskService) { }
+  ngOnInit(): void {
+    this.taskService.getTasks().subscribe((data) => {
       this.list_tasks = data;
       console.log(data);
     });
   }
-  deleteTask(task: Task){
-    this.taskService.deleteTask(task).subscribe();
+  deleteTask(task: Task) {
+    this.taskService.deleteTask(task).subscribe(() => (this.list_tasks = this.list_tasks.filter((t) => t.id != task.id)));
   }
 }

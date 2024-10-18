@@ -14,9 +14,15 @@
         },
         {
             "id": 3,
-            "title": "Estudar TipeScript",
+            "title": "Estudar TypeScript",
             "category": "Desenvolvimento Pessoal",
             "completed": false
-        }
+        },
+        {
+            "id": 4,
+            "title": "Estudar Testes Unitários",
+            "category": "Desenvolvimento Pessoal",
+            "completed": true
+        }        
     ]
 }
