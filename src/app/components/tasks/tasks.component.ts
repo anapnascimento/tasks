@@ -24,4 +24,8 @@ export class TasksComponent implements OnInit {
   deleteTask(task: Task) {
     this.taskService.deleteTask(task).subscribe(() => (this.list_tasks = this.list_tasks.filter((t) => t.id != task.id)));
   }
+  toggleCompleted(task: Task){
+    task.completion = !task.completion;
+    this.taskService.updateTask(task).subscribe();
+  }
 }

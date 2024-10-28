@@ -1,28 +1,28 @@
 {
-    "tasks":[
-        {
-            "id": 1,
-            "title": "Estudar SCSS",
-            "category": "Desenvolvimento Pessoal",
-            "completed": true
-        },
-        {
-            "id": 2,
-            "title": "Estudar Angular",
-            "category": "Trabalho",
-            "completed": false
-        },
-        {
-            "id": 3,
-            "title": "Estudar TypeScript",
-            "category": "Desenvolvimento Pessoal",
-            "completed": false
-        },
-        {
-            "id": 4,
-            "title": "Estudar Testes Unitários",
-            "category": "Desenvolvimento Pessoal",
-            "completed": true
-        }        
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Estudar SCSS",
+      "category": "Desenvolvimento Pessoal",
+      "completion": false
+    },
+    {
+      "id": "2",
+      "title": "Estudar Angular",
+      "category": "Trabalho",
+      "completion": false
+    },
+    {
+      "id": "3",
+      "title": "Estudar TypeScript",
+      "category": "Desenvolvimento Pessoal",
+      "completion": false
+    },
+    {
+      "id": "4",
+      "title": "Estudar Testes Unitários",
+      "category": "Desenvolvimento Pessoal",
+      "completion": false
+    }
+  ]
 }

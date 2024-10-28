@@ -4,8 +4,8 @@
     cursor: pointer;
     padding: 10px 15px;
 }
-.task.reminder{
-    border-left: 5px solid blue;
+.task.completed{
+    border-left: 10px solid #4CAF50;
 }
 .task h3{
     display: flex;
