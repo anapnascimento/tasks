@@ -1,1 +1,15 @@
-<p>task-add works!</p>
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label for="text">Title Task:</label>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Add Task">
+    </div>
+    <div class="mb-4">
+        <label for="category">Category:</label>
+        <select name="category" id="category" class="form-select">
+            <option value="">Select category</option>
+            <option value="trabalho">Trabalho</option>
+            <option value="pessoal">Desenvolvimento Pessoal</option>
+        </select>
+    </div>
+    <input type="submit" value="Save Task" class="btn btn-dark mb-4">
+</form>

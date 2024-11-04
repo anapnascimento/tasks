@@ -1,3 +1,4 @@
+<app-task-add></app-task-add>
 <app-task-item *ngFor="let task of list_tasks" [task]="task" (onDeleteTask)="deleteTask($event)"
 (onToggleCompleted)="toggleCompleted($event)"
 ></app-task-item>
